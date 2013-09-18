@@ -1,4 +1,4 @@
-jvs-require
+JvsRequire
 ===========
 
 JvsRequire is a JAVASCRIPT and CSS manager for Zend Framework 2.

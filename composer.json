@@ -1,0 +1,32 @@
+{
+    "name": "marcusamatos/jvs-require",
+    "description": "Module for manager Javascript and Css files when necessary.",
+    "type": "zf-module",
+    "keywords": [
+        "jvs",
+	"jvsrequire",
+	"css",
+	"javascript"
+        "developer",
+        "zf2",
+        "module"
+    ],
+    "homepage": "https://github.com/marcusamatos/jvs-require",
+    "authors": [
+        {
+            "name": "Marcus Matos",
+            "email": "marcusamatos@gmail.com"
+        },
+    ],
+    "require": {
+        "php":                               ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "JvsRequire": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
